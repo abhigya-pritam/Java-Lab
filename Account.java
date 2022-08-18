@@ -2,8 +2,8 @@ package com.test;
 
 public class Account 
 {
-	int accountNumber = 211400;
-	String name = "vijay";
+	int accountNumber = 456789;
+	String name = "rajni";
 	String email = "@gmail.com";
 
 	public int getAccountNumber() {
@@ -37,8 +37,8 @@ public class Account
 	public static void main(String[] args) {
 		Account obj = new Account();
 		obj.setAccountNumber(123);
-		obj.setName("Nazeer");
-		obj.setEmail("@khan");
+		obj.setName("Abhigya");
+		obj.setEmail("@pritam");
 		obj.display();
 	}
 }
